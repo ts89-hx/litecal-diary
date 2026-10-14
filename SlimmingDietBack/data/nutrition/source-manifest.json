@@ -1,0 +1,14 @@
+{
+  "publisher": "卫生福利部食品药物管理署（TFDA）",
+  "datasetUrl": "https://data.gov.tw/dataset/8543",
+  "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/json",
+  "license": "政府資料開放授權條款-第1版",
+  "licenseUrl": "https://data.gov.tw/license",
+  "retrievedAt": "2026-09-14T14:04:56.996797+00:00",
+  "rawSha256": "58781c15c632ca66047ba16698c44b37a88ab5ccf655f1bee00dd2301c791e65",
+  "sourceRows": 226720,
+  "sourceFoods": 2180,
+  "basis": "per 100 grams of the described sample, not per 100 ml",
+  "energyField": "熱量 (kcal)",
+  "notice": "下载日期不是采样日期；样品地区、原配方和加工状态必须保留。"
+}

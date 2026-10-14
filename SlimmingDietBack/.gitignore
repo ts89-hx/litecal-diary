@@ -1,0 +1,6 @@
+node_modules/
+.env
+.venv-food/
+model-assets/
+*.log
+__pycache__/

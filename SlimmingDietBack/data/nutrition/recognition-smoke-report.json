@@ -1,0 +1,86 @@
+{
+  "testedAt": "2026-09-15T03:39:09.442Z",
+  "scope": "Three-photo smoke test including a known difficult image, not an accuracy benchmark",
+  "photos": [
+    {
+      "file": "tomato-eggs.jpg",
+      "elapsedMs": 566,
+      "candidates": [
+        {
+          "name": "清炒蘑菇",
+          "caloriesPer100g": 62.53,
+          "referencePortionG": 250
+        },
+        {
+          "name": "果冻",
+          "caloriesPer100g": 91,
+          "referencePortionG": 100
+        },
+        {
+          "name": "洋葱炒牛肉",
+          "caloriesPer100g": 132.14,
+          "referencePortionG": 280
+        }
+      ],
+      "expectedInCandidates": false
+    },
+    {
+      "file": "kung-pao.jpg",
+      "elapsedMs": 656,
+      "candidates": [
+        {
+          "name": "宫保鸡丁",
+          "caloriesPer100g": 165.91,
+          "referencePortionG": 300
+        },
+        {
+          "name": "宫保鸡丁盖饭",
+          "caloriesPer100g": 153.76,
+          "referencePortionG": 400
+        },
+        {
+          "name": "花生豆花",
+          "caloriesPer100g": 60,
+          "referencePortionG": 250
+        }
+      ],
+      "expectedInCandidates": true
+    },
+    {
+      "file": "tomato-eggs-clear.jpg",
+      "elapsedMs": 486,
+      "candidates": [
+        {
+          "name": "番茄豆腐",
+          "caloriesPer100g": 80.63,
+          "referencePortionG": 350
+        },
+        {
+          "name": "香菇滑鸡",
+          "caloriesPer100g": 145.22,
+          "referencePortionG": 300
+        },
+        {
+          "name": "宫保鸡丁",
+          "caloriesPer100g": 165.91,
+          "referencePortionG": 300
+        }
+      ],
+      "expectedInCandidates": false
+    }
+  ],
+  "coldStartMs": 14735,
+  "top1Matches": 1,
+  "portionFoodManuallySelected": true,
+  "portionFlow": {
+    "food": "番茄炒蛋",
+    "referenceGrams": 280,
+    "referenceCalories": 264,
+    "halfGrams": 140,
+    "halfCalories": 132,
+    "editedEatenGrams": 100,
+    "editedCalories": 94
+  },
+  "invalidImageRejected": true,
+  "databaseFlowPassed": true
+}

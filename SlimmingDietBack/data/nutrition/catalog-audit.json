@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "foodCount": 190,
+  "officialSamples": 122,
+  "referenceRecipes": 68,
+  "mealCounts": {
+    "breakfast": 78,
+    "lunch": 79,
+    "dinner": 82,
+    "snack": 109
+  },
+  "categoryCounts": {
+    "早餐点心": 27,
+    "主食面点": 15,
+    "熟食荤菜": 12,
+    "奶茶饮品": 30,
+    "零食甜点": 44,
+    "水果加餐": 5,
+    "早餐粥品": 7,
+    "家常菜": 31,
+    "汤羹": 2,
+    "轻食沙拉": 2,
+    "面食粉面": 5,
+    "盖饭套餐": 10
+  },
+  "catalogSha256": "01141fdaf90bc1f4b48773f0f1afb4b9a6e300827b897476ef01a13d28df0402",
+  "sourceManifest": {
+    "publisher": "卫生福利部食品药物管理署（TFDA）",
+    "datasetUrl": "https://data.gov.tw/dataset/8543",
+    "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/json",
+    "license": "政府資料開放授權條款-第1版",
+    "licenseUrl": "https://data.gov.tw/license",
+    "retrievedAt": "2026-09-14T14:04:56.996797+00:00",
+    "rawSha256": "58781c15c632ca66047ba16698c44b37a88ab5ccf655f1bee00dd2301c791e65",
+    "sourceRows": 226720,
+    "sourceFoods": 2180,
+    "basis": "per 100 grams of the described sample, not per 100 ml",
+    "energyField": "熱量 (kcal)",
+    "notice": "下载日期不是采样日期；样品地区、原配方和加工状态必须保留。"
+  },
+  "exclusions": [
+    "未将生肉、生米、干面、冷冻生饺直接当成即食菜品",
+    "珍珠奶茶官方数据分析的是上层澄清液，未直接当作含珍珠整杯；使用明确原料配方估算",
+    "无可核验品牌规格的商品未冠以品牌名称"
+  ]
+}

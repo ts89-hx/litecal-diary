@@ -1,0 +1,52 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/onboarding/onboarding", "style": { "navigationBarTitleText": "制定轻卡计划" } },
+    { "path": "pages/home/home", "style": { "navigationBarTitleText": "今日", "enablePullDownRefresh": true } },
+    { "path": "pages/record/record", "style": { "navigationBarTitleText": "记录" } },
+    { "path": "pages/discover/discover", "style": { "navigationStyle": "custom", "navigationBarTitleText": "发现", "disableScroll": true } },
+    { "path": "pages/knowledge/knowledge", "style": { "navigationStyle": "custom", "navigationBarTitleText": "健康知识" } },
+    { "path": "pages/recipe_detail/recipe_detail", "style": { "navigationStyle": "custom", "navigationBarTitleText": "菜谱详情" } },
+    { "path": "pages/user/user", "style": { "navigationBarTitleText": "我的" } },
+    { "path": "pages/diet_records/diet_records", "style": { "navigationBarTitleText": "记饮食" } },
+    { "path": "pages/sport_records/sport_records", "style": { "navigationBarTitleText": "记运动" } }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "轻卡日记",
+    "navigationBarBackgroundColor": "#F7F9F4",
+    "backgroundColor": "#F7F9F4"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#87928E",
+    "selectedColor": "#27B786",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/nav_home.png",
+        "selectedIconPath": "static/nav_home_selected.png",
+        "text": "今日"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "static/nav_record.png",
+        "selectedIconPath": "static/nav_record_selected.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "static/nav_discover.png",
+        "selectedIconPath": "static/nav_discover_selected.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/nav_user.png",
+        "selectedIconPath": "static/nav_user_selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

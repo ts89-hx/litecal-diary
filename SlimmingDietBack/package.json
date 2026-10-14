@@ -1,0 +1,33 @@
+{
+  "name": "express_project",
+  "version": "1.0.0",
+  "description": "An Express.js project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "migrate": "node scripts/migrate-litecal.js",
+    "test": "node --test tests/calorie.test.js tests/recognition.test.js tests/diet-flow.test.js tests/diet-controller.test.js tests/food-catalog.test.js",
+    "catalog:build": "node scripts/build-food-catalog.js",
+    "validate:frontend": "node scripts/validate-miniapp.js"
+  },
+  "dependencies": {
+    "@alicloud/dysmsapi20170525": "^3.1.1",
+    "@alicloud/openapi-client": "^0.4.12",
+    "@alicloud/pop-core": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "mysql2": "^3.12.0",
+    "redis": "^4.7.0",
+    "sequelize": "^6.37.5",
+    "twilio": "^5.4.4",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
